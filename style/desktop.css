@@ -1,4 +1,4 @@
-@media(min-width:1440px){
+@media screen and (min-width:768px) and (max-width:1440px) {
   body {
     background-image: url("/images/bg-desktop.svg");
     background-color: hsl(257, 40%, 49%);
