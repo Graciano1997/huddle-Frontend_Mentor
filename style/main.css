@@ -53,3 +53,31 @@
     padding-bottom: 3%;
     color: black;
   }
+
+  .socialMedia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .descriptionContainerHeader {
+    padding-bottom: 4%;
+  }
+
+  .descriptionContainerHeader p {
+    width: 70%;
+  }
+  .socialMedia i {
+    gap: 0.8;
+    padding: 1rem;
+    border-radius: 100%;
+    border: solid 1px white;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 10%;
+      }
+  
