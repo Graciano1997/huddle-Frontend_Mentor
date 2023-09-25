@@ -1,5 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+
+
+}
+
+/* html {
   background: url("/images/bg-desktop.svg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+body{
+  background: rgba(97, 15, 151, 0.342);
+  background-size: 100%;
+} */
