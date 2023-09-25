@@ -20,6 +20,11 @@
     padding: 5%;
   }
 
+  header a img:hover {
+    transform: rotateZ(360deg);
+    transition: all 2s 1s ease-in-out;
+  }
+
   h1,
   h2 {
     font-family: 'Poppins', sans-serif;
@@ -52,6 +57,19 @@
     padding-top: 3%;
     padding-bottom: 3%;
     color: black;
+    transition: 2s 1s all ease-in-out;
+  }
+
+  #buttonRegister:hover {
+    background-color: orange;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.514);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #buttonRegister:focus-visible {
+    border: 1px solid orange;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.514);
   }
 
   .socialMedia {
@@ -59,6 +77,11 @@
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
+  }
+  .socialMedia a i:hover {
+    transition: all 1s 1s ease-in-out;
+    border: 1px solid orange;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.514);
   }
 
   .descriptionContainerHeader {
